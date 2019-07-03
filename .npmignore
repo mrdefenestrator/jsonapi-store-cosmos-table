@@ -1,0 +1,6 @@
+!test
+*~
+.*
+complexity
+coverage.html
+jsonapi-server.cpuprofile
