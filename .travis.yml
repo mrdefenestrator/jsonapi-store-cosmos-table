@@ -1,4 +1,4 @@
-dist: trusty
+os: windows
 sudo: false
 language: node_js
 node_js:
