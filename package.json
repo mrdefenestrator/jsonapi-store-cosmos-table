@@ -1,7 +1,7 @@
 {
   "name": "jsonapi-store-cosmos-table",
   "version": "2.0.0",
-  "description": "Cosmos DB Table Storage data store for jsonapi-server.",
+  "description": "Azure Cosmos DB Table Storage data store for jsonapi-server.",
   "main": "lib/cosmosTableHandler.js",
   "repository": {
     "type": "git",
