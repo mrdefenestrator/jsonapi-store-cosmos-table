@@ -9,9 +9,10 @@ services:
       - 27017:27017
     environment:
       MONGO_INITDB_DATABASE: jsonapi-test
-  # TODO: requires windows host
-  #cosmos:
-  #  image: microsoft/azure-cosmosdb-emulator
-  #  restart: always
-  #  ports: []
-  #  environment: {}
+
+  # Note: Requires windows host
+  cosmos:
+    image: microsoft/azure-cosmosdb-emulator
+    restart: always
+    ports: []
+    environment: {}

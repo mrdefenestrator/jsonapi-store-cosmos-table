@@ -5,9 +5,12 @@ node_js:
   - 4
   - 6
   - 8
-services:
-  - mongodb
-  - microsoft/azure-cosmosdb-emulator
+# services:
+#   - mongodb
+before_script:
+  - docker-compose up
 script: npm run ci
+after_script:
+  - docker-compose down
 notifications:
   email: false
