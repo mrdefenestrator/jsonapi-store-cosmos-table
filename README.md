@@ -1,4 +1,4 @@
-[![Coverage Status](https://coveralls.io/repos/mrdefenestrator/jsonapi-store-cosmos-table/badge.svg?branch=master&service=github)](https://coveralls.io/github/mrdefenestrator/jsonapi-store-cosmos-table?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/mrdefenestrator/jsonapi-store-cosmos-table/badge.svg?branch=master)](https://coveralls.io/github/mrdefenestrator/jsonapi-store-cosmos-table?branch=master)
 [![Build Status](https://travis-ci.org/mrdefenestrator/jsonapi-store-cosmos-table.svg?branch=master)](https://travis-ci.org/mrdefenestrator/jsonapi-store-cosmos-table)
 [![npm version](https://badge.fury.io/js/jsonapi-store-mongodb.svg)](http://badge.fury.io/js/jsonapi-store-mongodb)
 [![Code Climate](https://codeclimate.com/github/mrdefenestrator/jsonapi-store-cosmos-table/badges/gpa.svg)](https://codeclimate.com/github/mrdefenestrator/jsonapi-store-cosmos-table)
