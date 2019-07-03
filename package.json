@@ -1,26 +1,29 @@
 {
-  "name": "jsonapi-store-mongodb",
+  "name": "jsonapi-store-cosmos-table",
   "version": "2.0.0",
-  "description": "MongoDB data store for jsonapi-server.",
-  "main": "lib/mongoHandler.js",
+  "description": "Cosmos DB Table Storage data store for jsonapi-server.",
+  "main": "lib/cosmosTableHandler.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/holidayextras/jsonapi-store-mongodb.git"
+    "url": "https://github.com/mrdefenestrator/jsonapi-store-cosmos-table.git"
   },
   "keywords": [
     "json:api",
     "jsonapi",
     "persistence",
     "store",
-    "mongodb",
-    "mongo"
+    "cosmos",
+    "cosmosdb",
+    "table",
+    "storage",
+    "azure"
   ],
-  "author": "Pedro Romano <pedro.romano@holidayextras.com>",
+  "author": "Pedro Romano <pedro.romano@holidayextras.com>, Mike Gauthiere <mike-g@comcast.net>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/holidayextras/jsonapi-store-mongodb/issues"
+    "url": "https://github.com/mrdefenestrator/jsonapi-store-cosmos-table/issues"
   },
-  "homepage": "https://github.com/holidayextras/jsonapi-store-mongodb",
+  "homepage": "https://github.com/mrdefenestrator/jsonapi-store-cosmos-table",
   "engines": {
     "node": ">=4.5"
   },
