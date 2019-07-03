@@ -1,12 +1,12 @@
 "use strict";
 var async = require("async");
-var JsonapiStoreCosmosTable = require("..");
+var CosmosTableHandler = require("../lib/mongoHandler");
 var instances = [ ];
 
 // Replace the MemoryStore default handler with our own version
 require("jsonapi-server/lib/MemoryHandler");
 module.children[2].exports = function() {
-  var dbStore = new JsonapiStoreCosmosTable({
+  var dbStore = new CosmosTableHandler({
     url: "mongodb://localhost:27017/jsonapi-test"
   });
   // Keep the handler around for after the test rig is live
