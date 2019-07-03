@@ -7,6 +7,7 @@ node_js:
   - 8
 services:
   - mongodb
+  - microsoft/azure-cosmosdb-emulator
 script: npm run ci
 notifications:
   email: false
