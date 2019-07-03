@@ -50,7 +50,7 @@
     "v8-profiler": "5.7.0"
   },
   "scripts": {
-    "test": "docker-compose up -d && mocha --timeout 20000 -R spec ./test/*.js && docker-compose down",
+    "test": "mocha --timeout 20000 -R spec ./test/*.js",
     "start": "node example/server.js",
     "coveralls": "mocha --timeout 20000 --require blanket --reporter mocha-lcov-reporter ./test/*.js | coveralls.js",
     "coverage": "mocha --timeout 20000 --require blanket --reporter html-cov ./test/*.js > coverage.html",
