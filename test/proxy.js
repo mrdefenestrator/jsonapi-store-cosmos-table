@@ -1,6 +1,6 @@
 "use strict";
 var async = require("async");
-var CosmosTableHandler = require("../lib/mongoHandler");
+var CosmosTableHandler = require("../lib/cosmosTableHandler");
 var instances = [ ];
 
 // Replace the MemoryStore default handler with our own version
