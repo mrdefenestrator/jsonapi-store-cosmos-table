@@ -8,8 +8,8 @@ node_js:
 # services:
 #   - mongodb
 before_script:
-  - docker run --publish 27017:27017 mongo
-  - docker run microsoft/azure-cosmosdb-emulator
+  - docker run -d --publish 27017:27017 mongo
+  - docker run -d microsoft/azure-cosmosdb-emulator
 script: npm run ci
 notifications:
   email: false
