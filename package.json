@@ -30,7 +30,7 @@
   "dependencies": {
     "@azure/cosmos": "^2.1.7",
     "async": "2.5.0",
-    "debug": "3.0.1",
+    "debug": "3.1.0",
     "joi": "11.1.1",
     "lodash.omitby": "4.6.0",
     "mongodb": "2.2.31",
