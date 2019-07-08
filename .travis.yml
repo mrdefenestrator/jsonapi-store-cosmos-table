@@ -1,15 +1,16 @@
-os: windows
+# os: windows
+dist: trusty
 sudo: false
 language: node_js
 node_js:
   - 4
   - 6
   - 8
-# services:
-#   - mongodb
-before_script:
-  - docker run -d --publish 27017:27017 mongo
-  - docker run -d microsoft/azure-cosmosdb-emulator
+services:
+  - mongodb
+# before_script:
+#   - docker run -d --publish 27017:27017 mongo
+#   - docker run -d --memory 2GB --mount "type=bind,source=%hostDirectory%,destination=C:\CosmosDB.Emulator\bind-mount" --publish 443:443 microsoft/azure-cosmosdb-emulator
 script: npm run ci
 notifications:
   email: false
